@@ -1,0 +1,31 @@
+# Site settings
+title: 星尘的技术博客
+email:  zb737472783@me.com
+description: > #星尘的技术博客
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://zb737472783.github.io" # the base hostname & protocol for your site
+twitter_username: zb737472783@me.com
+github_username:  zb737472783
+
+# Build settings
+#markdown: kramdown
+permalink: /:year/:month/:day/:title.html   #博文的固定链接
+paginate: 10                                #分页时每页博文数量
+author:                                     #自定义常亮
+  name: 星尘
+  email: zb737472783@me.com
+  link: http://zb737472783.github.io
+  weibo: http://weibo.com/737472783
+  github: https://github.com/zb737472783
+title: 星尘的技术博客                             #自定义常量
+
+# avatar头像及Favicon
+avatar: https://avatars1.githubusercontent.com/u/5010799?v=3&amp;s=460
+#favicon: http://7u2ho6.com1.z0.glb.clouddn.com/site-favicon.ico
+
+locals:                                     #自定义常量
+  tags: 标签
+  about: 关于
+active: 技术                                 #自定义常量
+subscribe_rss: /pages/atom.xml              #订阅地址
+markdown: redcarpet                         #markdown解释器
